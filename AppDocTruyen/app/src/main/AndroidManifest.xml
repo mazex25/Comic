@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appdoctruyen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Argon Comic"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppDocTruyen">
+        <activity
+            android:name=".TheLoai"
+            android:exported="true" />
+        <activity
+            android:name=".QuenMK"
+            android:exported="true" />
+        <activity
+            android:name=".MKMoi"
+            android:exported="true" />
+        <activity
+            android:name=".DangKy"
+            android:exported="true" />
+        <activity
+            android:name=".DangNhap"
+            android:exported="true" />
+        <activity
+            android:name=".TrangChu"
+            android:exported="true" />
+        <activity
+            android:name=".CTTruyen"
+            android:exported="true" />
+        <activity
+            android:name=".TimKiem"
+            android:exported="true" />
+        <activity
+            android:name=".XepHang"
+            android:exported="true" />
+        <activity
+            android:name=".activity.DocChapter"
+            android:exported="true" />
+        <activity
+            android:name=".activity.DiemThuong"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CuaHang"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ShowDanhGia"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ShowBinhLuan"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.QuanLyTaiKhoan"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.QuanLyBinhLuan"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.QuanLyThongKe"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.QuanLyTruyen"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.ShowThongTinTaiKhoan"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.ShowThongTinBinhLuan"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.ShowThongTinThongKe"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.ShowThongTinTruyen"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.ShowThongTinChapter"
+            android:exported="true" />
+        <activity
+            android:name=".activity.DoiMatKhau"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ThongTinTaiKhoan"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LichSuNhanDiem"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

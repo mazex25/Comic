@@ -30,7 +30,7 @@
                 android:id="@+id/img_tk_avatar"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/logo"
+                android:src="@drawable/logox"
                 android:layout_gravity="center_vertical"
                 android:scaleType="fitCenter"
                 android:layout_marginLeft="5dp"/>

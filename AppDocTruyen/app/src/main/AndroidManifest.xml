@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appdoctruyen">
+    package="com.example.truyenapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
-        android:label="Argon Comic"
-        android:roundIcon="@drawable/logo"
+        android:icon="@drawable/logo1"
+        android:label="Comic"
+        android:roundIcon="@drawable/logo1"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppDocTruyen">
         <activity
-            android:name=".TheLoai"
+            android:name="com.example.truyenapp.TheLoai"
             android:exported="true" />
         <activity
-            android:name=".QuenMK"
+            android:name="com.example.truyenapp.QuenMK"
             android:exported="true" />
         <activity
-            android:name=".MKMoi"
+            android:name="com.example.truyenapp.MKMoi"
             android:exported="true" />
         <activity
-            android:name=".DangKy"
+            android:name="com.example.truyenapp.DangKy"
             android:exported="true" />
         <activity
-            android:name=".DangNhap"
+            android:name="com.example.truyenapp.DangNhap"
             android:exported="true" />
         <activity
-            android:name=".TrangChu"
+            android:name="com.example.truyenapp.TrangChu"
             android:exported="true" />
         <activity
-            android:name=".CTTruyen"
+            android:name="com.example.truyenapp.CTTruyen"
             android:exported="true" />
         <activity
-            android:name=".TimKiem"
+            android:name="com.example.truyenapp.TimKiem"
             android:exported="true" />
         <activity
-            android:name=".XepHang"
+            android:name="com.example.truyenapp.XepHang"
             android:exported="true" />
         <activity
-            android:name=".activity.DocChapter"
+            android:name="com.example.truyenapp.activity.DocChapter"
             android:exported="true" />
         <activity
-            android:name=".activity.DiemThuong"
+            android:name="com.example.truyenapp.activity.DiemThuong"
             android:exported="true" />
         <activity
-            android:name=".activity.CuaHang"
+            android:name="com.example.truyenapp.activity.CuaHang"
             android:exported="true" />
         <activity
-            android:name=".activity.ShowDanhGia"
+            android:name="com.example.truyenapp.activity.ShowDanhGia"
             android:exported="true" />
         <activity
-            android:name=".activity.ShowBinhLuan"
+            android:name="com.example.truyenapp.activity.ShowBinhLuan"
             android:exported="true" />
         <activity
-            android:name=".Admin.QuanLyTaiKhoan"
+            android:name="com.example.truyenapp.Admin.QuanLyTaiKhoan"
             android:exported="true" />
         <activity
-            android:name=".Admin.QuanLyBinhLuan"
+            android:name="com.example.truyenapp.Admin.QuanLyBinhLuan"
             android:exported="true" />
         <activity
-            android:name=".Admin.QuanLyThongKe"
+            android:name="com.example.truyenapp.Admin.QuanLyThongKe"
             android:exported="true" />
         <activity
-            android:name=".Admin.QuanLyTruyen"
+            android:name="com.example.truyenapp.Admin.QuanLyTruyen"
             android:exported="true" />
         <activity
-            android:name=".Admin.ShowThongTinTaiKhoan"
+            android:name="com.example.truyenapp.Admin.ShowThongTinTaiKhoan"
             android:exported="true" />
         <activity
-            android:name=".Admin.ShowThongTinBinhLuan"
+            android:name="com.example.truyenapp.Admin.ShowThongTinBinhLuan"
             android:exported="true" />
         <activity
-            android:name=".Admin.ShowThongTinThongKe"
+            android:name="com.example.truyenapp.Admin.ShowThongTinThongKe"
             android:exported="true" />
         <activity
-            android:name=".Admin.ShowThongTinTruyen"
+            android:name="com.example.truyenapp.Admin.ShowThongTinTruyen"
             android:exported="true" />
         <activity
-            android:name=".Admin.ShowThongTinChapter"
+            android:name="com.example.truyenapp.Admin.ShowThongTinChapter"
             android:exported="true" />
         <activity
-            android:name=".activity.DoiMatKhau"
+            android:name="com.example.truyenapp.activity.DoiMatKhau"
             android:exported="true" />
         <activity
-            android:name=".activity.ThongTinTaiKhoan"
+            android:name="com.example.truyenapp.activity.ThongTinTaiKhoan"
             android:exported="true" />
         <activity
-            android:name=".activity.LichSuNhanDiem"
+            android:name="com.example.truyenapp.activity.LichSuNhanDiem"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.truyenapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

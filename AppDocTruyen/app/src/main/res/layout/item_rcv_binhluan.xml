@@ -16,7 +16,7 @@
         android:id="@+id/img_avatar"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logox"
         android:layout_gravity="center_vertical"/>
     <LinearLayout
         android:layout_width="match_parent"

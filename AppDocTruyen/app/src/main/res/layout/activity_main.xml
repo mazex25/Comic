@@ -13,13 +13,13 @@
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="400dp"
-        app:srcCompat="@drawable/logo"
+
         android:layout_gravity="center"
         android:layout_marginTop="100dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Argon Comic - Thế giới của truyện tranh"
+        android:text=" - Thế giới của truyện tranh"
         android:textColor="@color/green"
         android:textStyle="normal"
         android:textSize="16dp"

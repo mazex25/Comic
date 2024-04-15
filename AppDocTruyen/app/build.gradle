@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 29
+    compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.appdoctruyen"
+        applicationId "com.example.truyenapp"
         minSdk 28
-        targetSdk 29
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
